@@ -18,3 +18,26 @@
 body {
     font-family: 'Oswald', sans-serif;
 }
+
+.container-header {
+    background-image: url('covid.png');
+    background-size: cover;
+    background-position: 50%;
+}
+
+.dash-dropdown,
+p, h2 {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+.dash-dropdown {
+    width: 15%;
+}
+
+.FacilityGraph {
+    display: flex;
+}
+.Facility-graph {
+    width: 20vw;
+}
